@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Montserrat&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -369,11 +370,11 @@ a:hover, a:active, a:focus {
 }
 
 /**
- * Basic typography style for copy text
+ * Typography styles
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font: normal 125%/1.4;
 }
 
 /**
