@@ -1,6 +1,17 @@
 /**
- * Basic typography style for copy text
+ * Typography styles
  */
+
+ // google fonts
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Montserrat&display=swap');
+
+
+// Font Variables
+$heading-font: 'DM Serif Display', serif;
+$body-font: 'Montserrat', sans-serif;
+
+
+
 body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
