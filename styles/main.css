@@ -384,6 +384,10 @@ body {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
 }
 
+h1 {
+  font: normal 125%/1.4 "DM Serif Display", "Georgia", serif;
+}
+
 /**
  * Clear inner floats
  */
@@ -445,5 +449,9 @@ body {
 
 .nav {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
+}
+
+.nav__item {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

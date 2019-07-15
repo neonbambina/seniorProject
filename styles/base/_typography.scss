@@ -2,9 +2,11 @@
  * Typography styles
  */
 
-
-
 body {
   color: $text-color;
   font: normal 125% / 1.4 $body-font;
+}
+
+h1 {
+  font: normal 125% / 1.4 $heading-font;
 }
