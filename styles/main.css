@@ -484,21 +484,6 @@ a:hover, a:active, a:focus {
   height: 25vh;
 }
 
-.content {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: content;
-  border: 2px solid red;
-}
-
-.side {
-  border: 2px solid red;
-}
-
-.ad {
-  border: 2px solid red;
-}
-
 .header__logo {
   border: 1px solid #b6bdc3;
   fill: #241f20;
@@ -548,6 +533,21 @@ a:hover, a:active, a:focus {
   .nav--toggle {
     display: none;
   }
+}
+
+.content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: content;
+  border: 2px solid red;
+}
+
+.side {
+  border: 2px solid red;
+}
+
+.ad {
+  border: 2px solid red;
 }
 
 .organize {
