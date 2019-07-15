@@ -453,4 +453,8 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+.nav__item {
+  float: left;
+}
 /*# sourceMappingURL=main.css.map */
