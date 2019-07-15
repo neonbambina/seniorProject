@@ -481,7 +481,7 @@ a:hover, a:active, a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 25vh;
+  height: 10vh;
 }
 
 .header__logo {
@@ -494,7 +494,7 @@ a:hover, a:active, a:focus {
 @media (min-width: 700px) {
   .header {
     border: 1px solid red;
-    height: 25vh;
+    height: 20vh;
   }
 }
 
