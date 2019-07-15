@@ -2,9 +2,13 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.slider{
-    height: 50px;
-    overflow: hidden;
+
+.catchphrase {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .slider__wrapper {
     font-size: 40px;
@@ -14,6 +18,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .slider{
+    height: 50px;
+    overflow: hidden;
   }
   .slider__piece {
     color: red;
@@ -36,5 +44,3 @@
     71% {margin-top:0px;}
     100% {margin-top:0px;}
   }
-
-

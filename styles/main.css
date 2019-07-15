@@ -648,9 +648,18 @@ a:hover, a:active, a:focus {
           transform: scale(1.05);
 }
 
-.slider {
-  height: 50px;
-  overflow: hidden;
+.catchphrase {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .slider__wrapper {
@@ -667,6 +676,11 @@ a:hover, a:active, a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.slider {
+  height: 50px;
+  overflow: hidden;
 }
 
 .slider__piece {
