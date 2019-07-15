@@ -482,14 +482,14 @@ a:hover, a:active, a:focus {
 
 .header__logo {
   border: 1px solid #b6bdc3;
-  width: 13%;
+  width: 30%;
   fill: #241f20;
 }
 
 @media (min-width: 700px) {
   .header__logo {
     border: 1px solid red;
-    width: 30%;
+    width: 10%;
   }
 }
 
