@@ -579,7 +579,7 @@ a:hover, a:active, a:focus {
     -ms-grid-row-span: 2;
     -ms-grid-column: 2;
     grid-area: content;
-    margin-right: -125px;
+    margin-top: -10%;
   }
   .nav {
     -ms-grid-row: 2;
