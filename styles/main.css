@@ -452,14 +452,14 @@ h1 {
   width: 13%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
   .header__logo {
     width: 100px;
     float: none;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .header__logo {
     float: right;
   }
