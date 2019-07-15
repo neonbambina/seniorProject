@@ -535,21 +535,6 @@ a:hover, a:active, a:focus {
   }
 }
 
-.content {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: content;
-  border: 2px solid red;
-}
-
-.side {
-  border: 2px solid red;
-}
-
-.ad {
-  border: 2px solid red;
-}
-
 .organize {
   display: -ms-grid;
   display: grid;
@@ -563,6 +548,15 @@ a:hover, a:active, a:focus {
         grid-template-columns: 1fr 4fr 1fr;
         grid-template-areas: "header header  header" "nav    content sidebar" "nav    content ad" "footer footer  footer";
   }
+  .nav__ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav--toggle {
+    display: none;
+  }
   .side {
     -ms-grid-row: 2;
     -ms-grid-column: 3;
@@ -575,6 +569,21 @@ a:hover, a:active, a:focus {
     grid-area: ad;
     border: 2px solid red;
   }
+}
+
+.content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: content;
+  border: 2px solid red;
+}
+
+.side {
+  border: 2px solid red;
+}
+
+.ad {
+  border: 2px solid red;
 }
 
 .footer {
