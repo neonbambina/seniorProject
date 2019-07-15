@@ -508,6 +508,7 @@ a:hover, a:active, a:focus {
   margin: 0;
   color: #000000;
   font-size: calc(1.25rem);
+  padding: 25px 0px;
 }
 
 .nav:hover {
