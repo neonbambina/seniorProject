@@ -21,20 +21,6 @@
       "nav    content ad"
       "footer footer  footer"
    }
-   .nav__ul {
-     flex-direction: column;
-   }
-  .nav--toggle {
-    display:none;
-  }
-  .side {
-  grid-area: sidebar;
-  border: 2px solid red;
-  }
-  .ad {
-    grid-area: ad;
-    border: 2px solid red;
-  }
 }
 
 
