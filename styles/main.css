@@ -605,6 +605,7 @@ a:hover, a:active, a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   border: 2px solid red;
+  margin: auto;
 }
 
 @media (min-width: 700px) {

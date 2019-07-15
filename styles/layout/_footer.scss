@@ -2,12 +2,13 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 .footer {
-    grid-area: footer;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid red;
-  }
+  grid-area: footer;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  margin:auto;
+}
 
   @media (min-width: 700px) {
     .footer {
