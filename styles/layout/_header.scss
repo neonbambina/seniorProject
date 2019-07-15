@@ -6,10 +6,10 @@
     border: 1px solid #b6bdc3;
     width: 13%;
 
-    @media screen and (max-width: $break-small) {
+    @media screen and (min-width: $break-small) {
         width: 30%;
       }
-      @media screen and (max-width: $break-large) {
+      @media screen and (min-width: $break-large) {
         border: 1px solid #b6bdc3;
         width: 13%;      
     }
