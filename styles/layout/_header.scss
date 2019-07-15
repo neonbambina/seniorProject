@@ -5,7 +5,17 @@
 .header__logo {
     border: 1px solid #b6bdc3;
     width: 13%;
+    
+    @media screen and (max-width: $break-small) {
+        width: 100px;
+        float: none;
+      }
+      @media screen and (min-width: $break-large) {
+        float: right;
+      }
+
 }
+
 
 
 .nav {

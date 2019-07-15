@@ -452,6 +452,19 @@ h1 {
   width: 13%;
 }
 
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 100px;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    float: right;
+  }
+}
+
 .nav {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
   list-style-type: none;
