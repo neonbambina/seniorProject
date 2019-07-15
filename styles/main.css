@@ -449,13 +449,12 @@ h1 {
 
 .header__logo {
   border: 1px solid #b6bdc3;
-  width: 100%;
+  width: 13%;
 }
 
 @media screen and (max-width: 420px) {
   .header__logo {
-    width: 100px;
-    float: none;
+    width: 30%;
   }
 }
 
