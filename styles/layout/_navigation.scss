@@ -1,6 +1,11 @@
 // navigation
 
 .nav {
+    grid-area: nav;
+    border: 2px solid red;
+  }
+
+.nav {
     font: normal 125% / 1.4 $body-font;
     list-style-type: none;
     margin: 0;
