@@ -485,6 +485,9 @@ main {
 img {
   display: block;
   width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 5px 10px;
 }
 
 .intro {
