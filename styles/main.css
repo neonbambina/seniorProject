@@ -488,7 +488,6 @@ a:hover, a:active, a:focus {
 
 @media (min-width: 700px) {
   .header {
-    border: 2px solid red;
     padding: 25px 0px -20px 20px;
     margin-bottom: -20px;
   }
