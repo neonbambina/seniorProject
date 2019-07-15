@@ -5,12 +5,12 @@
 .header {
     grid-area: header;
     border: 2px solid red;
+    display: flex;
+    height: 10vh;
 } 
 
 .header__logo {
     border: 1px solid #b6bdc3;
-    display: flex;
-    width: 10vh;
     fill: $logo-color;
     margin: auto;
 

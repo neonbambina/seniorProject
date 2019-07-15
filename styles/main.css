@@ -478,14 +478,14 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 1;
   grid-area: header;
   border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
 }
 
 .header__logo {
   border: 1px solid #b6bdc3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 10vh;
   fill: #241f20;
   margin: auto;
 }
