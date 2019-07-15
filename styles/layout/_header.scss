@@ -2,6 +2,11 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
+.header {
+    grid-area: header;
+    border: 2px solid red;
+} 
+
 .header__logo {
     border: 1px solid #b6bdc3;
     width: 13%;
