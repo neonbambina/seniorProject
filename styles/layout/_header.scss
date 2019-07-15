@@ -6,6 +6,11 @@
     grid-area: header;
     border: 2px solid red;
     padding: 25px 0px 0px 20px;
+
+    @media (min-width: 700px) {
+        padding: 25px 0px -20px 20px;
+        margin-bottom: -20px;
+        }
 } 
 
 .header__logo {
@@ -13,12 +18,7 @@
     width: 13%;
 }
 
-.header {
-    @media (min-width: 700px) {
-    padding: 25px 0px -20px 20px;
-    margin-bottom: -20px;
-    }
-}
+
 
 .header__logo:hover {
     fill:red;
