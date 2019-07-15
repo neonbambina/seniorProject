@@ -608,24 +608,6 @@ a:hover, a:active, a:focus {
   margin: auto;
 }
 
-@media (min-width: 700px) {
-  .footer {
-    -ms-grid-row: 6;
-    -ms-grid-column: 1;
-    grid-area: footer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: 2px solid red;
-  }
-}
-
 .pg {
   -webkit-columns: 300px;
           columns: 300px;
