@@ -38,11 +38,25 @@
    }
   .side {
   grid-area: sidebar;
-  border: 2px solid red;
+  display: none;
   }
   .ad {
     grid-area: ad;
-    border: 2px solid red;
+    display: none;
   }
+  .content {
+    grid-area: content;
+    border: 2px solid red;
+    margin-right: -125px;
+  }
+
+  //to fix scss error saying these "don't exist"
+  .nav {
+    grid-area: nav;
+  }
+  .header {
+    grid-area: header;
+  }
+
 }
 

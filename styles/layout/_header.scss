@@ -5,23 +5,21 @@
 .header {
     grid-area: header;
     border: 2px solid red;
-    display: flex;
-    height: 10vh;
+    padding: 25px 0px 0px 20px;
 } 
 
 .header__logo {
-    border: 1px solid #b6bdc3;
     fill: $logo-color;
-    margin: auto;
+    width: 13%;
 }
 
 .header {
     @media (min-width: 700px) {
-    border: 1px solid red;
-    height: 20vh;
+    border: 2px solid red;
+    padding: 25px 0px -20px 20px;
+    margin-bottom: -20px;
     }
 }
-
 
 .header__logo:hover {
     fill:red;
