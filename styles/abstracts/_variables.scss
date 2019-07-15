@@ -3,14 +3,21 @@
 // -----------------------------------------------------------------------------
 
 
- // google fonts
- @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Montserrat&display=swap');
+// google fonts
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Montserrat&display=swap');
 
 
- // Font Variables
- $heading-font: 'DM Serif Display', 'Georgia', serif;
- $body-font: 'Montserrat', 'Helvetica', sans-serif;
+// Font Variables
+$heading-font: 'DM Serif Display', 'Georgia', serif;
+$body-font: 'Montserrat', 'Helvetica', sans-serif;
  
+
+
+// Logo Color
+/// @type Color
+$logo-color: #241f20;
+
+
 
 /// Copy text color
 /// @type Color
@@ -32,11 +39,6 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
 
-
-
-// Logo Color
-/// @type Color
-$logo-color: #241f20;
 
 
 
