@@ -648,6 +648,11 @@ a:hover, a:active, a:focus {
           transform: scale(1.05);
 }
 
+.slider {
+  height: 50px;
+  overflow: hidden;
+}
+
 .slider__wrapper {
   font-size: 40px;
   color: #aaa;
@@ -662,11 +667,6 @@ a:hover, a:active, a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.slider {
-  height: 50px;
-  overflow: hidden;
 }
 
 .slider__piece {
