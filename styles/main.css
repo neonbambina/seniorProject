@@ -449,6 +449,9 @@ h1 {
 
 .nav {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
-  text-decoration: none;
+}
+
+.nav__item {
+  list-style-type: none;
 }
 /*# sourceMappingURL=main.css.map */
