@@ -1,13 +1,13 @@
 // photo-grid that will display all my work for that particular page
 
-ul {
+.pg {
   columns: 300px;
   break-inside: avoid;
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
 }
-li {
+.pg__photo {
   list-style-type:none;
 }
 img {

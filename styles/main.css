@@ -533,7 +533,7 @@ a:hover, a:active, a:focus {
   display: none;
 }
 
-ul {
+.pg {
   -webkit-columns: 300px;
           columns: 300px;
   -webkit-column-break-inside: avoid;
@@ -543,7 +543,7 @@ ul {
   padding: 0;
 }
 
-li {
+.pg__photo {
   list-style-type: none;
 }
 
