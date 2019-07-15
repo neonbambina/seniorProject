@@ -377,14 +377,14 @@ html {
     display: none;
   }
   .side {
-    -ms-grid-row: 2;
-    -ms-grid-column: 3;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: sidebar;
     border: 2px solid red;
   }
   .ad {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: ad;
     border: 2px solid red;
   }
@@ -474,6 +474,8 @@ a:hover, a:active, a:focus {
 }
 
 .header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: header;
   border: 2px solid red;
 }
@@ -489,6 +491,8 @@ a:hover, a:active, a:focus {
 }
 
 .nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: nav;
   border: 2px solid red;
 }
@@ -508,7 +512,31 @@ a:hover, a:active, a:focus {
   color: #000000;
 }
 
+.content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: content;
+  border: 2px solid red;
+}
+
+.side {
+  border: 2px solid red;
+}
+
+.ad {
+  border: 2px solid red;
+}
+
+.organize {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+      grid-template-areas: "header" "nav" "content" "sidebar" "ad" "footer";
+}
+
 .footer {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
   grid-area: footer;
   display: -webkit-box;
   display: -ms-flexbox;
