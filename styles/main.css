@@ -466,6 +466,10 @@ h1 {
   }
 }
 
+.header--logo {
+  fill: #241f20;
+}
+
 .nav {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
   list-style-type: none;
