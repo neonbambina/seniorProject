@@ -452,13 +452,13 @@ h1 {
   width: 30%;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 420px) {
   .header__logo {
     width: 20%;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 760px) {
   .header__logo {
     border: 1px solid #b6bdc3;
     width: 13%;

@@ -4,12 +4,13 @@
 
 .header__logo {
     border: 1px solid #b6bdc3;
-    width: 30%;
+    width: 100%;
 
-    @media screen and (min-width: $break-small) {
-        width: 20%;
+    @media screen and (max-width: $break-small) {
+        width: 100px;
+        float: none;
       }
-      @media screen and (min-width: $break-large) {
+      @media screen and (max-width: $break-medium) {
         border: 1px solid #b6bdc3;
         width: 13%;      
     }
