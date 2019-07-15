@@ -1,11 +1,11 @@
 // photo-grid that will display all my work for that particular page
 
-.main {
+main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.img {
+img {
     display: block;
     width: 100%;
 }

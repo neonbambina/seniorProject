@@ -475,14 +475,14 @@ h1 {
   display: none;
 }
 
-.main {
+main {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.img {
+img {
   display: block;
   width: 100%;
 }
