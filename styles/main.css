@@ -547,7 +547,7 @@ a:hover, a:active, a:focus {
   list-style-type: none;
 }
 
-img {
+.pg__photo-piece {
   width: 100%;
   display: block;
   -o-object-fit: cover;
@@ -563,7 +563,7 @@ img {
   cursor: pointer;
 }
 
-img:hover {
+.pg__photo-piece:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
