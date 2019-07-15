@@ -453,6 +453,10 @@ h1 {
   fill: #241f20;
 }
 
+.header__logo:hover {
+  fill: red;
+}
+
 .nav {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
   list-style-type: none;
