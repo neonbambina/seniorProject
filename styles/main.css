@@ -475,7 +475,7 @@ h1 {
   display: none;
 }
 
-.block {
+.main {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
@@ -485,5 +485,15 @@ h1 {
 .img {
   display: block;
   width: 100%;
+}
+
+.intro {
+  display: -ms-grid;
+  display: grid;
+}
+
+.intro__slider {
+  display: -ms-grid;
+  display: grid;
 }
 /*# sourceMappingURL=main.css.map */
