@@ -488,7 +488,6 @@ a:hover, a:active, a:focus {
   border: 1px solid #b6bdc3;
   fill: #241f20;
   margin: auto;
-  height: 100%;
 }
 
 @media (min-width: 700px) {
