@@ -7,14 +7,14 @@
     width: 13%;
     fill:#241f20;
 
-    @media screen and (max-width: $break-large) {
-        border: 1px solid red;
-        width: 15%;
-      }
-      @media screen and (max-width: $break-small) {
-        border: 1px solid green;
-        width: 30%;      
-    }
+    // @media screen and (max-width: $break-large) {
+    //     border: 1px solid red;
+    //     width: 15%;
+    //   }
+    //   @media screen and (max-width: $break-small) {
+    //     border: 1px solid green;
+    //     width: 30%;      
+    // }
 
 }
 
@@ -33,5 +33,5 @@
 }
 
 .nav:hover {
-
+    color: #000000;
 }
