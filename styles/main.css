@@ -456,10 +456,6 @@ h1 {
   fill: red;
 }
 
-.nav--toggle {
-  display: none;
-}
-
 .nav {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
   list-style-type: none;
@@ -473,6 +469,10 @@ h1 {
 
 .nav:hover {
   color: #000000;
+}
+
+.nav--toggle {
+  display: none;
 }
 
 .main {

@@ -1,0 +1,23 @@
+// navigation
+
+.nav {
+    font: normal 125% / 1.4 $body-font;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    &__item {
+        color: #000000;
+    }
+
+}
+
+.nav:hover {
+    color: #000000;
+}
+
+//mostly for mobile & smaller screens
+.nav--toggle {
+    display: none;
+    
+}
