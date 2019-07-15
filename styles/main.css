@@ -534,8 +534,8 @@ a:hover, a:active, a:focus {
 }
 
 ul {
-  -webkit-columns: 200px;
-          columns: 200px;
+  -webkit-columns: 300px;
+          columns: 300px;
   -webkit-column-break-inside: avoid;
           break-inside: avoid;
   margin-left: 20px;
