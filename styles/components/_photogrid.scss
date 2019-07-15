@@ -1,16 +1,21 @@
 // photo-grid that will display all my work for that particular page
 
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-column-gap: 10px;
-
-    
-}
-
-img {
-    display: block;
+ul {
+    columns: 200px;
+    break-inside: avoid;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+  }
+  li {
+    list-style-type:none;
+  }
+  img {
     width: 100%;
-    box-sizing: border-box;
-    margin: 5px 10px;
-}
+    display: block;
+    object-fit: cover;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+  }
+  

@@ -352,9 +352,7 @@ html {
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
- * Since `*` has a specificity of 0, it does not override the `html` value
- * making all elements inheriting from the root box-sizing value
- * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ * Since Jen Simmons does it and I trust her with my life
  */
 *,
 *::before,
@@ -363,16 +361,64 @@ html {
           box-sizing: inherit;
 }
 
-/**
- * Basic styles for links
- */
-a {
-  color: #e50050;
-  text-decoration: none;
+.organize {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "nav content side" "footer footer footer";
+  -ms-grid-columns: 200px 1fr 200px;
+      grid-template-columns: 200px 1fr 200px;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+  height: 100vh;
 }
 
-a:hover, a:active, a:focus {
-  color: #222222;
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  margin-left: 0.5rem;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: content;
+}
+
+aside {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: side;
+  margin-right: 0.5rem;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+@media (max-width: 768px) {
+  .container {
+        grid-template-areas: "header" "nav" "content" "side" "footer";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto minmax(75px, auto) 1fr minmax(75px, auto) auto;
+        grid-template-rows: auto minmax(75px, auto) 1fr minmax(75px, auto) auto;
+    /* Footer */
+  }
+  nav, aside {
+    margin: 0;
+  }
 }
 
 /**
@@ -385,6 +431,18 @@ body {
 
 h1 {
   font: normal 125%/1.4 "DM Serif Display", "Georgia", serif;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: #e50050;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #222222;
 }
 
 /**
@@ -475,20 +533,29 @@ h1 {
   display: none;
 }
 
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap: 10px;
+ul {
+  -webkit-columns: 200px;
+          columns: 200px;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 img {
-  display: block;
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 5px 10px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .intro {
