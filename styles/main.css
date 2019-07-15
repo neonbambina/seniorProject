@@ -449,7 +449,7 @@ h1 {
 
 .header__logo {
   border: 1px solid #b6bdc3;
-  width: 10%;
+  width: 13%;
 }
 
 .nav {
@@ -460,6 +460,6 @@ h1 {
 }
 
 .nav__item {
-  float: left;
+  color: #000000;
 }
 /*# sourceMappingURL=main.css.map */
