@@ -381,7 +381,7 @@ a:hover, a:active, a:focus {
  */
 body {
   color: #222222;
-  font: normal 125% / 1.4;
+  font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
 }
 
 /**
@@ -441,5 +441,9 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.nav {
+  font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
