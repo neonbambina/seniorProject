@@ -17,12 +17,10 @@ img {
   margin-top: 0px;
   margin-bottom: 20px;
   box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
-  transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
   cursor: pointer;
   
-  &:hover {
+    &:hover {
     transform: scale(1.05);
   }
-
 }
-
