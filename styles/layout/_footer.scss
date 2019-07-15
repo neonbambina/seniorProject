@@ -8,3 +8,13 @@
     justify-content: center;
     border: 2px solid red;
   }
+
+  @media (min-width: 700px) {
+    .footer {
+      grid-area: footer;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid red;
+    }
+  }
