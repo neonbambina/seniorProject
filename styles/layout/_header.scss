@@ -8,6 +8,20 @@
     display: flex;
     height: 25vh;
 } 
+.content {
+    grid-area: content;
+    border: 2px solid red;
+  }
+
+
+// the white sidebar on the side of the meat of the page
+.side {
+    border: 2px solid red;
+}
+.ad {
+    border: 2px solid red;
+}
+
 
 .header__logo {
     border: 1px solid #b6bdc3;
