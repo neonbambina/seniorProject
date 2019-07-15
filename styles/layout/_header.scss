@@ -14,13 +14,15 @@
     fill: $logo-color;
     margin: auto;
     height: 100%;
+}
 
+.header {
     @media (min-width: 700px) {
     border: 1px solid red;
     height: 13%;
     }
-
 }
+
 
 .header__logo:hover {
     fill:red;

@@ -492,7 +492,7 @@ a:hover, a:active, a:focus {
 }
 
 @media (min-width: 700px) {
-  .header__logo {
+  .header {
     border: 1px solid red;
     height: 13%;
   }
