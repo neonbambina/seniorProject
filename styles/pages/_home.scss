@@ -2,10 +2,46 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.intro {
-    display: grid;
-}
+.catchphrase {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider__wrapper {
+    font-size: 40px;
+    color:#aaa;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider{
+    height: 50px;
+    overflow: hidden;
+  }
+  .slider__piece {
+    color: red;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 15px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .slider--text1 {
+    animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;}
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;}
+    100% {margin-top:0px;}
+  }
 
-.intro__slider {
-    display: grid;
-}
+
