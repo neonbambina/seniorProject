@@ -20,3 +20,13 @@
 .nav:hover {
     color: #000000;
 }
+
+
+@media (min-width: 700px) {
+     .nav__ul {
+       flex-direction: column;
+     }
+    .nav--toggle {
+      display:none;
+    }
+}
