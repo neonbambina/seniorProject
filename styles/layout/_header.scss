@@ -8,9 +8,8 @@
 
     @media screen and (min-width: $break-small) {
         width: 20%;
-        float: none;
       }
-      @media screen and (min-width: $break-medium) {
+      @media screen and (min-width: $break-large) {
         border: 1px solid #b6bdc3;
         width: 13%;      
     }
