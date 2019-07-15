@@ -475,7 +475,7 @@ h1 {
   display: none;
 }
 
-.main {
+.block {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];

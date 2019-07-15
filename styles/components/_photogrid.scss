@@ -1,6 +1,6 @@
 // photo-grid that will display all my work for that particular page
 
-.main {
+.block {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
