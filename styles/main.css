@@ -662,7 +662,7 @@ a:hover, a:active, a:focus {
           justify-content: center;
 }
 
-.slider__wrapper {
+.sliding-text__stable {
   font-size: 40px;
   color: #aaa;
   font-weight: bold;
@@ -678,12 +678,12 @@ a:hover, a:active, a:focus {
           justify-content: center;
 }
 
-.slider {
+.sliding-text__moving {
   height: 50px;
   overflow: hidden;
 }
 
-.slider__piece {
+.sliding-text__moving--words {
   color: red;
   height: 50px;
   margin-bottom: 50px;
@@ -693,12 +693,12 @@ a:hover, a:active, a:focus {
           box-sizing: border-box;
 }
 
-.slider--text1 {
-  -webkit-animation: slide 10s linear infinite;
-          animation: slide 10s linear infinite;
+.sliding-text__moving--words-driver {
+  -webkit-animation: skillz 10s linear infinite;
+          animation: skillz 10s linear infinite;
 }
 
-@-webkit-keyframes slide {
+@-webkit-keyframes skillz {
   0% {
     margin-top: -300px;
   }
@@ -722,7 +722,7 @@ a:hover, a:active, a:focus {
   }
 }
 
-@keyframes slide {
+@keyframes skillz {
   0% {
     margin-top: -300px;
   }

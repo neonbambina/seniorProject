@@ -2,7 +2,6 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-
 .sliding-text {
     width: 100vw;
     height: 100vh;
@@ -10,7 +9,7 @@
     align-items: center;
     justify-content: center;
   }
-  .slider__wrapper {
+  .sliding-text__stable {
     font-size: 40px;
     color:#aaa;
     font-weight: bold;
@@ -19,11 +18,11 @@
     align-items: center;
     justify-content: center;
   }
-  .slider{
+  .sliding-text__moving{
     height: 50px;
     overflow: hidden;
   }
-  .slider__piece {
+  .sliding-text__moving--words{
     color: red;
     height: 50px;
     margin-bottom: 50px;
@@ -31,11 +30,12 @@
     text-align: center;
     box-sizing: border-box;
   }
-  .slider--text1 {
-    animation: slide 10s linear infinite;
+  
+  .sliding-text__moving--words-driver{
+    animation: skillz 10s linear infinite;
   }
   
-  @keyframes slide {
+  @keyframes skillz {
     0% {margin-top:-300px;}
     5% {margin-top:-200px;}
     33% {margin-top:-200px;}
