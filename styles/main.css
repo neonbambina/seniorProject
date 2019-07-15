@@ -556,6 +556,16 @@ img {
   margin-bottom: 20px;
   -webkit-box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .intro {
