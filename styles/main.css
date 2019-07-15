@@ -447,6 +447,11 @@ h1 {
   width: 1px;
 }
 
+.header__logo {
+  border: 1px solid #b6bdc3;
+  width: 10%;
+}
+
 .nav {
   font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
   list-style-type: none;
