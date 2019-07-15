@@ -543,14 +543,6 @@ a:hover, a:active, a:focus {
       grid-template-areas: "header" "nav" "content" "sidebar" "ad" "footer";
 }
 
-@media (min-width: 700px) {
-  .organize {
-    -ms-grid-columns: 1fr 4fr 1fr;
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-areas: "header header  header" "nav    content sidebar" "nav    content ad" "footer footer  footer";
-  }
-}
-
 .content {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -564,6 +556,26 @@ a:hover, a:active, a:focus {
 
 .ad {
   border: 2px solid red;
+}
+
+@media (min-width: 700px) {
+  .organize {
+    -ms-grid-columns: 1fr 4fr 1fr;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-areas: "header header  header" "nav    content sidebar" "nav    content ad" "footer footer  footer";
+  }
+  .side {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    grid-area: sidebar;
+    border: 2px solid red;
+  }
+  .ad {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: ad;
+    border: 2px solid red;
+  }
 }
 
 .footer {
