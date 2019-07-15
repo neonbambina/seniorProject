@@ -481,7 +481,7 @@ a:hover, a:active, a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 13%;
+  height: 25vh;
 }
 
 .header__logo {
