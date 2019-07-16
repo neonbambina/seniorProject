@@ -403,7 +403,7 @@ h1 {
 }
 
 p {
-  font: normal 100%/"Montserrat", "Helvetica", sans-serif;
+  font: "Montserrat", "Helvetica", sans-serif;
 }
 
 a {
@@ -763,14 +763,5 @@ a:hover, a:active, a:focus {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-}
-
-.about__text--title {
-  font-family: "DM Serif Display", "Georgia", serif;
-  font-size: 30px;
-}
-
-.about__text--body {
-  font-size: 30px;
 }
 /*# sourceMappingURL=main.css.map */
