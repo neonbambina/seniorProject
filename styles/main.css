@@ -745,8 +745,8 @@ a:hover, a:active, a:focus {
 .about {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat auto-fit minmax(200px, 1fr);
-      grid-template-columns: repeat auto-fit minmax(200px, 1fr);
+  -ms-grid-columns: repeat auto-fit, minmax(100px, 1fr);
+      grid-template-columns: repeat auto-fit, minmax(100px, 1fr);
 }
 
 .about__image {
