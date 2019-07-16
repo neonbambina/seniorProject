@@ -759,7 +759,7 @@ a:hover, a:active, a:focus {
 }
 
 .about__text {
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
