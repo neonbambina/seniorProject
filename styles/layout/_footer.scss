@@ -9,3 +9,38 @@
   border: 2px solid red;
   margin: auto;
 }
+
+.footer__copyright{
+  clear:left;
+  float:left; 
+  margin: 10px;
+}
+
+.footer__copyright--next {
+  margin: 10px;
+  float:left; 
+}
+
+
+//social media icons
+
+.ex4{
+  padding: 60px 0;
+  text-align: center;
+  background: #fff;
+  i{
+    margin: 0 20px;
+    color: #333;
+    cursor: pointer;
+  }
+}
+
+.ex4{
+  i{
+    &:hover{
+      color: #ef43a1;
+      transition(all 600ms cubic-bezier(.99,0,.57,.94));
+      transform(rotate(360deg));
+    }
+  }
+}
