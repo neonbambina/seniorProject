@@ -11,14 +11,15 @@ h1 {
   font: normal 125% / 1.4 $heading-font;
 }
 
-/**
- * Basic styles for links
- */
- a {
+p {
+  font: normal 100% / $body-font;
+}
+
+a {
   color: $brand-color;
   text-decoration: none;
 
-  @include on-event {
+ @include on-event {
     color: $text-color;
   }
 }

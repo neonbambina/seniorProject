@@ -402,9 +402,10 @@ h1 {
   font: normal 125%/1.4 "DM Serif Display", "Georgia", serif;
 }
 
-/**
- * Basic styles for links
- */
+p {
+  font: normal 100%/"Montserrat", "Helvetica", sans-serif;
+}
+
 a {
   color: #e50050;
   text-decoration: none;
@@ -743,14 +744,30 @@ a:hover, a:active, a:focus {
 }
 
 .about {
+  width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat auto-fit, minmax(100px, 1fr);
-      grid-template-columns: repeat auto-fit, minmax(100px, 1fr);
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  -ms-grid-rows: .6fr .6fr;
+      grid-template-rows: .6fr .6fr;
+  border: 1px red solid;
 }
 
 .about__image {
-  display: block;
   width: 100%;
+}
+
+.about__title {
+  font-family: "DM Serif Display", "Georgia", serif;
+  padding: 1rem 2rem;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.about__text {
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-size: 30px;
 }
 /*# sourceMappingURL=main.css.map */
