@@ -758,16 +758,20 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
-.about__title {
-  font-family: "DM Serif Display", "Georgia", serif;
+.about__text {
   padding: 1rem 2rem;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
 
-.about__text {
-  font-family: "Montserrat", "Helvetica", sans-serif;
+.about__text--title {
+  font-family: "DM Serif Display", "Georgia", serif;
+  font-size: 30px;
+}
+
+.about__text--body {
+  font-family: "DM Serif Display", "Georgia", serif;
   font-size: 30px;
 }
 /*# sourceMappingURL=main.css.map */
