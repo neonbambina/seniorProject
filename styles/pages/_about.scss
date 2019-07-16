@@ -1,0 +1,10 @@
+
+.about {
+    display: grid;
+    grid-template-columns: auto-fit minmax(200px, 1fr);
+}
+
+.about__image {
+    display: block;
+    width: 100%;
+}

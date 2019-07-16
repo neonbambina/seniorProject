@@ -741,4 +741,16 @@ a:hover, a:active, a:focus {
     margin-top: 0px;
   }
 }
+
+.about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto-fit minmax(200px, 1fr);
+      grid-template-columns: auto-fit minmax(200px, 1fr);
+}
+
+.about__image {
+  display: block;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
