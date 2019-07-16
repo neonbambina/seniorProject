@@ -507,7 +507,7 @@ a:hover, a:active, a:focus {
   padding: 0;
   margin: 0;
   color: #000000;
-  font-size: calc(.9rem);
+  font-size: .9rem;
 }
 
 .nav__ul--li {
@@ -610,84 +610,17 @@ a:hover, a:active, a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 2px solid red;
   margin: auto;
+  font-size: .9rem;
 }
 
 .footer__copyright {
-  clear: left;
   float: left;
-  margin: 10px;
+  text-align: center;
 }
 
 .footer__copyright--next {
-  margin: 10px;
-  float: left;
-}
-
-.footer__socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer__socials .footer__buttons {
-  text-decoration: none !important;
-  width: 60px;
-  height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 50%;
-  margin-right: 20px;
-  font-size: 25px;
-  overflow: hidden;
-  position: relative;
-  color: red;
-}
-
-.footer__socials .footer__buttons .footer__buttons--animate {
-  position: relative;
-  z-index: 3;
-}
-
-.footer__socials .footer__buttons:last-child {
-  margin-right: 0px;
-}
-
-.footer__socials .footer__buttons:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
-.footer__socials .footer__buttons .footer__buttons--animate {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.footer__socials .footer__buttons {
-  -webkit-transition: all 0.2s linear 0.2s;
-  transition: all 0.2s linear 0.2s;
-}
-
-.footer__socials .footer__buttons .footer__buttons--animate {
-  -webkit-transition: all 0.2s linear 0s;
-  transition: all 0.2s linear 0s;
-}
-
-.footer__socials .footer__buttons:hover .footer__buttons--animate {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
-  -webkit-transition: all 0.2s linear 0.2s;
-  transition: all 0.2s linear 0.2s;
+  margin: 7px;
 }
 
 .pg {
