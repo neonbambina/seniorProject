@@ -547,6 +547,8 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: content;
+  margin-top: -1.5em;
+  margin-right: -20%;
   border: 2px solid red;
 }
 
@@ -645,14 +647,6 @@ a:hover, a:active, a:focus {
 .pg__photo-piece:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-}
-
-.sliding-text {
-  width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .sliding-text__stable {
