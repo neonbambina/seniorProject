@@ -30,10 +30,10 @@ $border-radius: 50%;
 $font-size: 25px;
 
 
-.effect {
+.footer__socials {
   display: flex;
   
-  a {
+ .footer__buttons {
     text-decoration: none !important;
     width: 60px;
     height: 60px;
@@ -46,9 +46,8 @@ $font-size: 25px;
     overflow: hidden;
     position: relative;
     color: $basic-dark-color; //or change to your own color
-    border: 2px solid $basic-dark-color; //or change to your own color
     
-    i {
+    .footer__buttons--animate {
       position: relative;
       z-index: 3;
     }
@@ -64,29 +63,26 @@ $font-size: 25px;
       vertical-align: middle;
     }
     
-    i {
+    .footer__buttons--animate {
       display: inline-block;
       vertical-align: middle;
     }
   }
 }
 
-.effect.amiens {
+.footer__socials {
   
-  a {
+  .footer__buttons {
     transition: all 0.2s linear 0.2s;
     
-    i {
+    .footer__buttons--animate {
       transition: all 0.2s linear 0s;
     }
     
     &:hover {
-      transition: all 0.2s linear 0s;
-      border-color: rgba($basic-dark-color,0);
       
-      i {
+      .footer__buttons--animate {
         transform: scale(1.15);
-        text-shadow: 4px 0px 3px rgba($basic-dark-color,0.3);
         transition: all 0.2s linear 0.2s;
       }
     }
