@@ -42,4 +42,9 @@
   font-size: $font-size-small;
   letter-spacing: 2px;
   cursor: pointer;
+
+  .button:hover {
+    background: rgb(189, 61, 61);
+    color: white;
+  }
 }

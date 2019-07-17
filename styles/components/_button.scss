@@ -5,8 +5,3 @@
 .button {
 @include button;
   }
-
-  .button:hover {
-    background: rgb(189, 61, 61);
-    color: white;
-  }

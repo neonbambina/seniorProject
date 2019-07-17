@@ -598,7 +598,7 @@ a:hover, a:active, a:focus {
   cursor: pointer;
 }
 
-.button:hover {
+.button .button:hover {
   background: #bd3d3d;
   color: white;
 }
