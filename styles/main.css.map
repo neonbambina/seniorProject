@@ -17,7 +17,8 @@
         "components/_button.scss",
         "components/_photogrid.scss",
         "pages/_home.scss",
-        "pages/_about.scss"
+        "pages/_about.scss",
+        "pages/_contact.scss"
     ],
     "names": [],
     "file": "main.css"
