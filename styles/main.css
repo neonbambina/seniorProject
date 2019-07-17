@@ -589,12 +589,24 @@ a:hover, a:active, a:focus {
 }
 
 .button {
-  border: 2px solid #bd3d3d;
-  color: #bd3d3d;
+  border: #e50050;
+  color: #e50050;
   padding: 14px 28px;
   font-size: 0.9em;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+.button:hover {
+  background: #bc0042;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.button:active {
+  background: #660023;
+  color: white;
 }
 
 .pg {
@@ -766,18 +778,6 @@ a:hover, a:active, a:focus {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-}
-
-.about__CTA:hover {
-  background: #bc0042;
-  color: white;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.about__CTA:active {
-  background: #660023;
-  color: white;
 }
 
 .sessions {

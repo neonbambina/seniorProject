@@ -34,14 +34,21 @@
 
 
 /// Button
-@mixin button {
+@mixin button($bg) {
+  border: $bg;
+  color: $bg;
+  padding: 14px 28px;
+  font-size: $font-size-small;
+  letter-spacing: 2px;
+  cursor: pointer;
+
   &:hover {
-    background:darken($brand-color,8%);
+    background: darken($bg,8%);
     color: white;
     transition: all 0.3s ease;
   }
   &:active {
-    background:darken($brand-color,25%);
+    background:darken($bg,25%);
     color: white;
   } 
 }
