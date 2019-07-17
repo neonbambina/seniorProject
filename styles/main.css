@@ -792,6 +792,10 @@ a:hover, a:active, a:focus {
           order: 2;
 }
 
+.about__CTA {
+  padding-top: 5%;
+}
+
 .sessions {
   display: -ms-grid;
   display: grid;
