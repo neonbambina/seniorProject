@@ -6,7 +6,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 2fr minmax(40ch, 65ch) minmax(40ch, 65ch);
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .sliding-image {
@@ -19,7 +19,7 @@
 .sliding-text {
   width: 100%;
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 3;
   text-align: right;
   }
   .sliding-text__stable {

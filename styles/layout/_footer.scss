@@ -5,14 +5,14 @@
   grid-area: footer;
   display:flex;
   align-items: center;
-  justify-content: center;
-  margin: auto;
   font-size: .9rem;
+  width: 100%;
 }
 
 .footer__copyright {
-  float:left; 
   text-align: center;
+  margin: auto;
+  letter-spacing: .75px;
 }
 
 .footer__copyright--next {
