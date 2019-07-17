@@ -589,7 +589,7 @@ a:hover, a:active, a:focus {
 }
 
 .button {
-  border: #e50050;
+  border: 2px solid #e50050;
   color: #e50050;
   padding: 14px 28px;
   font-size: 0.9em;
@@ -598,7 +598,7 @@ a:hover, a:active, a:focus {
 }
 
 .button:hover {
-  background: #bc0042;
+  background: #e50050;
   color: white;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;

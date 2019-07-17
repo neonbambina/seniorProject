@@ -35,7 +35,7 @@
 
 /// Button
 @mixin button($bg) {
-  border: $bg;
+  border: 2px solid $bg;
   color: $bg;
   padding: 14px 28px;
   font-size: $font-size-small;
@@ -43,7 +43,7 @@
   cursor: pointer;
 
   &:hover {
-    background: darken($bg,8%);
+    background: $bg;
     color: white;
     transition: all 0.3s ease;
   }
