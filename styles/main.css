@@ -786,7 +786,6 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 1;
   grid-row: 1;
   width: 75%;
-  margin: auto;
 }
 
 .sessions__pic2 {
@@ -795,7 +794,6 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 1;
   grid-row: 1;
   width: 75%;
-  margin: auto;
 }
 
 .sessions__pic3 {
@@ -804,7 +802,6 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 1;
   grid-row: 1;
   width: 75%;
-  margin: auto;
 }
 
 .sessions__short {
@@ -814,7 +811,6 @@ a:hover, a:active, a:focus {
   grid-row: 2;
   width: 100%;
   margin: auto;
-  text-align: center;
 }
 
 .sessions__short--body {
@@ -832,7 +828,6 @@ a:hover, a:active, a:focus {
   grid-row: 2;
   width: 100%;
   margin: auto;
-  text-align: center;
 }
 
 .sessions__long--body {
@@ -850,7 +845,6 @@ a:hover, a:active, a:focus {
   grid-row: 2;
   width: 100%;
   margin: auto;
-  text-align: center;
 }
 
 .sessions__extended--body {
