@@ -2,38 +2,41 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0fr 1fr;
 }
 
 .sessions__short {
     grid-column: 1;
     grid-row: 1;
     width: 100%;
+
+    --body {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    }
 }
 
 .sessions__long {
     grid-column: 2;
     grid-row: 1;
     width: 100%;
+
+    --body {
+        grid-column: 2;
+        grid-row: 2;
+        width: 100%;
+        }
 }
 
 .sessions__extended {
     grid-column: 3;
     grid-row: 1;
     width: 100%;
-}
 
-.sessions__short--body {
-    width: 100%;
-    margin-top: -20%;
-}
-
-.sessions__long--body {
-    width: 100%;
-    margin-top: -20%;
-}
-
-.sessions__extended--body {
-    width: 100%;
-    margin-top: -20%;
+    --body {
+        grid-column: 3;
+        grid-row: 2;
+        width: 100%;
+        }
 }

@@ -776,8 +776,8 @@ a:hover, a:active, a:focus {
   width: 100%;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  -ms-grid-rows: 0fr 1fr;
+      grid-template-rows: 0fr 1fr;
 }
 
 .sessions__short {
@@ -785,6 +785,14 @@ a:hover, a:active, a:focus {
   grid-column: 1;
   -ms-grid-row: 1;
   grid-row: 1;
+  width: 100%;
+}
+
+.sessions__short --body {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 2;
+  grid-row: 2;
   width: 100%;
 }
 
@@ -796,6 +804,14 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
+.sessions__long --body {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  width: 100%;
+}
+
 .sessions__extended {
   -ms-grid-column: 3;
   grid-column: 3;
@@ -804,18 +820,11 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
-.sessions__short--body {
+.sessions__extended --body {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 2;
+  grid-row: 2;
   width: 100%;
-  margin-top: -20%;
-}
-
-.sessions__long--body {
-  width: 100%;
-  margin-top: -20%;
-}
-
-.sessions__extended--body {
-  width: 100%;
-  margin-top: -20%;
 }
 /*# sourceMappingURL=main.css.map */
