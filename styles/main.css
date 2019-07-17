@@ -495,10 +495,6 @@ a:hover, a:active, a:focus {
   width: 13%;
 }
 
-.header__logo:hover {
-  fill: red;
-}
-
 .nav {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
