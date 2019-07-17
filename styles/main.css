@@ -380,13 +380,11 @@ html {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: sidebar;
-    border: 2px solid red;
   }
   .ad {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     grid-area: ad;
-    border: 2px solid red;
   }
 }
 
@@ -548,6 +546,14 @@ a:hover, a:active, a:focus {
   grid-area: content;
   margin-top: -1.5em;
   margin-right: -20%;
+  border: 2px solid red;
+}
+
+.side {
+  border: 2px solid red;
+}
+
+.ad {
   border: 2px solid red;
 }
 
