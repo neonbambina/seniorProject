@@ -597,11 +597,6 @@ a:hover, a:active, a:focus {
   cursor: pointer;
 }
 
-.button:hover {
-  background: #bd3d3d;
-  color: white;
-}
-
 .pg {
   -webkit-columns: 300px;
           columns: 300px;
@@ -773,18 +768,16 @@ a:hover, a:active, a:focus {
           order: 2;
 }
 
-.about__CTA {
-  background-color: #2ecc71;
-}
-
 .about__CTA:hover {
-  background: #26ab5f;
+  background: #bc0042;
+  color: white;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .about__CTA:active {
-  background: #176437;
+  background: #660023;
+  color: white;
 }
 
 .sessions {

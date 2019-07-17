@@ -36,10 +36,12 @@
 /// Button
 @mixin button {
   &:hover {
-    background:darken($bg,8%);
+    background:darken($brand-color,8%);
+    color: white;
     transition: all 0.3s ease;
   }
   &:active {
-    background:darken($bg,25%);
+    background:darken($brand-color,25%);
+    color: white;
   } 
 }
