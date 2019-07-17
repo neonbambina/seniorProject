@@ -873,13 +873,6 @@ a:hover, a:active, a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.sessions__CTA--body {
-  margin: auto;
-}
-
-.sessions__CTA--button {
   margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
