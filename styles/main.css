@@ -571,6 +571,7 @@ a:hover, a:active, a:focus {
           align-items: center;
   font-size: .9rem;
   width: 100%;
+  margin-bottom: 1.5%;
 }
 
 .footer__copyright {
