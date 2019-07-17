@@ -774,10 +774,10 @@ a:hover, a:active, a:focus {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 0fr 1fr;
-      grid-template-rows: 0fr 1fr;
+  -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+      grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+  -ms-grid-rows: minmax(200px, 1fr) minmax(200px, 1fr);
+      grid-template-rows: minmax(200px, 1fr) minmax(200px, 1fr);
 }
 
 .sessions__short {
@@ -793,7 +793,6 @@ a:hover, a:active, a:focus {
   grid-column: 1;
   -ms-grid-row: 2;
   grid-row: 2;
-  width: 100%;
 }
 
 .sessions__long {
@@ -809,7 +808,6 @@ a:hover, a:active, a:focus {
   grid-column: 2;
   -ms-grid-row: 2;
   grid-row: 2;
-  width: 100%;
 }
 
 .sessions__extended {
@@ -825,6 +823,5 @@ a:hover, a:active, a:focus {
   grid-column: 3;
   -ms-grid-row: 2;
   grid-row: 2;
-  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
