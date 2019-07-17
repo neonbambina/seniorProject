@@ -4,15 +4,17 @@
 
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $body-font;
+  font: normal 100% / 1.4 $body-font;
 }
 
 h1 {
-  font: normal 125% / 1.4 $heading-font;
+  font: normal 100% / 1.4 $heading-font;
+  font-size: $font-size-large;
 }
 
 p {
   font: $body-font;
+  font-size: $font-size-small;
 }
 
 a {

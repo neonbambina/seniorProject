@@ -395,15 +395,17 @@ html {
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Montserrat", "Helvetica", sans-serif;
+  font: normal 100%/1.4 "Montserrat", "Helvetica", sans-serif;
 }
 
 h1 {
-  font: normal 125%/1.4 "DM Serif Display", "Georgia", serif;
+  font: normal 100%/1.4 "DM Serif Display", "Georgia", serif;
+  font-size: 2em;
 }
 
 p {
   font: "Montserrat", "Helvetica", sans-serif;
+  font-size: 0.9em;
 }
 
 a {
