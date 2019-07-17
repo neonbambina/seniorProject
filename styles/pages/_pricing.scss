@@ -1,22 +1,32 @@
 .sessions {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: .6fr .6fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-// .sessions__short {
-//     grid-columns: ;
+.sessions__short {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+}
 
-// }
+.sessions__short--body {
+    width: 100%;
+    margin-top: -10%;
+}
 
-// .sessions__long {
+.sessions__long {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+}
 
-// }
-
-// .sessions__extended {
-
-// }
+.sessions__extended {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+}
 
 
 
