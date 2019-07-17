@@ -1,0 +1,33 @@
+.sessions {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: .6fr .6fr;
+}
+
+// .sessions__short {
+//     grid-columns: ;
+
+// }
+
+// .sessions__long {
+
+// }
+
+// .sessions__extended {
+
+// }
+
+
+
+// order: 2;
+// grid-column: 3;
+// grid-row: span 4;
+// width: 100%;
+// }
+
+// .sliding-text {
+// width: 100%;
+// grid-column: 2;
+// grid-row: 3;
+// text-align: right;
