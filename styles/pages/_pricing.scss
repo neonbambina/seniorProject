@@ -2,8 +2,13 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr .1fr .5fr;
+    grid-template-rows: 1fr .1fr 1fr;
 }
+
+.sessions__info {
+    font-size: $font-size-medium;
+}
+
 
 .sessions__pic1 {
     grid-column: 1;
