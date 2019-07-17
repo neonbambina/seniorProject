@@ -786,8 +786,8 @@ a:hover, a:active, a:focus {
   width: 100%;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr .1fr .5fr .3fr .1fr;
-      grid-template-rows: 1fr .1fr .5fr .3fr .1fr;
+  -ms-grid-rows: 1fr .1fr .5fr;
+      grid-template-rows: 1fr .1fr .5fr;
 }
 
 .sessions__info {
@@ -872,11 +872,13 @@ a:hover, a:active, a:focus {
 .sessions__CTA {
   display: -ms-grid;
   display: grid;
-  width: 100%;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  width: 50%;
+  margin-left: 17%;
+  -ms-grid-columns: minmax(45fr, 1fr) 0.5fr;
+      grid-template-columns: minmax(45fr, 1fr) 0.5fr;
   -ms-grid-rows: .3fr .1fr;
       grid-template-rows: .3fr .1fr;
+  font-size: 0.9em;
 }
 
 .sessions__CTA--text {
@@ -884,6 +886,7 @@ a:hover, a:active, a:focus {
   grid-column: 1;
   -ms-grid-row: 1;
   grid-row: 1;
+  float: right;
 }
 
 .sessions__CTA--button {
@@ -891,5 +894,6 @@ a:hover, a:active, a:focus {
   grid-column: 2;
   -ms-grid-row: 1;
   grid-row: 1;
+  margin: auto 0;
 }
 /*# sourceMappingURL=main.css.map */
