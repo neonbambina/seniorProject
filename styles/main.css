@@ -753,7 +753,6 @@ a:hover, a:active, a:focus {
       grid-template-columns: 1fr 3fr;
   -ms-grid-rows: .6fr .6fr;
       grid-template-rows: .6fr .6fr;
-  border: 1px red solid;
 }
 
 .about__image {
@@ -761,7 +760,8 @@ a:hover, a:active, a:focus {
 }
 
 .about__text {
-  padding: 0rem 2rem;
+  padding-left: 2em;
+  margin-top: -1.9em;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
