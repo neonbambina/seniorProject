@@ -522,14 +522,6 @@ a:hover, a:active, a:focus {
   border: 2px solid red;
 }
 
-.side {
-  border: 2px solid red;
-}
-
-.ad {
-  border: 2px solid red;
-}
-
 @media (min-width: 700px) {
   .organize {
     -ms-grid-columns: 1fr 4fr 1fr;
