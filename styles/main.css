@@ -584,6 +584,10 @@ a:hover, a:active, a:focus {
   margin: 7px;
 }
 
+.footer__line-divider {
+  color: #e50050;
+}
+
 .button {
   border: 2px solid #bd3d3d;
   background-color: white;
@@ -781,7 +785,7 @@ a:hover, a:active, a:focus {
 }
 
 .sessions__info {
-  font-size: 0.9em;
+  font-size: 2em;
 }
 
 .sessions__pic1 {
