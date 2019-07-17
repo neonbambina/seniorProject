@@ -588,21 +588,6 @@ a:hover, a:active, a:focus {
   color: #e50050;
 }
 
-.button {
-  border: 2px solid #bd3d3d;
-  background-color: white;
-  color: #bd3d3d;
-  padding: 14px 28px;
-  font-size: 0.9em;
-  letter-spacing: 2px;
-  cursor: pointer;
-}
-
-.button .button:hover {
-  background: #bd3d3d;
-  color: white;
-}
-
 .pg {
   -webkit-columns: 300px;
           columns: 300px;

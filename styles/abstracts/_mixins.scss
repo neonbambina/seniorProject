@@ -31,20 +31,3 @@
     @content;
   }
 }
-
-
-/// Button
-@mixin button {
-  border: 2px solid rgb(189, 61, 61);
-  background-color: white;
-  color: rgb(189, 61, 61);
-  padding: 14px 28px;
-  font-size: $font-size-small;
-  letter-spacing: 2px;
-  cursor: pointer;
-
-  .button:hover {
-    background: rgb(189, 61, 61);
-    color: white;
-  }
-}
