@@ -837,6 +837,7 @@ a:hover, a:active, a:focus {
   grid-row: 2;
   width: 100%;
   margin: auto;
+  padding-top: 4%;
 }
 
 .sessions__short--body {
@@ -844,7 +845,7 @@ a:hover, a:active, a:focus {
   grid-column: 1;
   -ms-grid-row: 3;
   grid-row: 3;
-  margin: 0 10%;
+  padding: 0 10%;
 }
 
 .sessions__long {
@@ -854,6 +855,7 @@ a:hover, a:active, a:focus {
   grid-row: 2;
   width: 100%;
   margin: auto;
+  padding-top: 4%;
 }
 
 .sessions__long--body {
@@ -861,7 +863,7 @@ a:hover, a:active, a:focus {
   grid-column: 2;
   -ms-grid-row: 3;
   grid-row: 3;
-  margin: 0 10%;
+  padding: 0 10%;
 }
 
 .sessions__extended {
@@ -871,6 +873,7 @@ a:hover, a:active, a:focus {
   grid-row: 2;
   width: 100%;
   margin: auto;
+  padding-top: 4%;
 }
 
 .sessions__extended--body {
@@ -878,7 +881,7 @@ a:hover, a:active, a:focus {
   grid-column: 3;
   -ms-grid-row: 3;
   grid-row: 3;
-  margin: 0 10%;
+  padding: 0 10%;
 }
 
 .sessions__CTA {
