@@ -675,6 +675,11 @@ a:hover, a:active, a:focus {
           transform: scale(1.05);
 }
 
+.sliding-text {
+  display: -ms-grid;
+  display: grid;
+}
+
 .sliding-text__stable {
   font-size: 40px;
   color: #aaa;
