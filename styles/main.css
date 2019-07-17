@@ -776,16 +776,35 @@ a:hover, a:active, a:focus {
   width: 100%;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr .5fr 2fr;
-      grid-template-rows: 1fr .5fr 2fr;
+  -ms-grid-rows: 1fr .1fr .5fr;
+      grid-template-rows: 1fr .1fr .5fr;
 }
 
-.sessions__pic {
+.sessions__pic1 {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  width: 75%;
+  margin: auto;
+}
+
+.sessions__pic2 {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  width: 75%;
+  margin: auto;
+}
+
+.sessions__pic3 {
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 1;
   grid-row: 1;
-  width: 100%;
+  width: 75%;
+  margin: auto;
 }
 
 .sessions__short {
@@ -794,6 +813,8 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 2;
   grid-row: 2;
   width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .sessions__short --body {
@@ -809,6 +830,8 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 2;
   grid-row: 2;
   width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .sessions__long --body {
@@ -824,6 +847,8 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 2;
   grid-row: 2;
   width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .sessions__extended --body {
