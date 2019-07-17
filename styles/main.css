@@ -679,7 +679,6 @@ a:hover, a:active, a:focus {
       grid-template-columns: 2fr minmax(40ch, 65ch) minmax(40ch, 65ch);
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  border: green 2px solid;
 }
 
 .sliding-image {
