@@ -759,6 +759,21 @@ a:hover, a:active, a:focus {
           order: 2;
 }
 
+.about__CTA .button {
+  border: 2px solid #bd3d3d;
+  background-color: white;
+  color: #bd3d3d;
+  padding: 14px 28px;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.about__CTA .button:hover {
+  background: #bd3d3d;
+  color: white;
+}
+
 .sessions {
   display: -ms-grid;
   display: grid;
