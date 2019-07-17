@@ -839,6 +839,8 @@ a:hover, a:active, a:focus {
   grid-column: 2;
   -ms-grid-row: 3;
   grid-row: 3;
+  margin: 0 10%;
+  border: 2px red solid;
 }
 
 .sessions__extended {
