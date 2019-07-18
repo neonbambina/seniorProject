@@ -23,7 +23,7 @@ a {
   color: $text-color;
   text-decoration: none;
 
- @include on-event {
+ &:hover {
     color: $brand-color;
   }
 }

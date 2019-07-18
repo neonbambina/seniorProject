@@ -386,67 +386,8 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
+a:hover {
   color: #ef6b5d;
-}
-
-/**
- * Clear inner floats
- */
-.clearfix::after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-/**
- * Main content containers
- * 1. Make the container full-width with a maximum width
- * 2. Center it in the viewport
- * 3. Leave some space on the edges, especially valuable on small screens
- */
-.container {
-  max-width: 1180px;
-  /* 1 */
-  margin-left: auto;
-  /* 2 */
-  margin-right: auto;
-  /* 2 */
-  padding-left: 20px;
-  /* 3 */
-  padding-right: 20px;
-  /* 3 */
-  width: 100%;
-  /* 1 */
-}
-
-/**
- * Hide text while making it readable for screen readers
- * 1. Needed in WebKit-based browsers because of an implementation bug;
- *    See: https://code.google.com/p/chromium/issues/detail?id=457146
- */
-.hide-text {
-  overflow: hidden;
-  padding: 0;
-  /* 1 */
-  text-indent: 101%;
-  white-space: nowrap;
-}
-
-/**
- * Hide element while making it readable for screen readers
- * Shamelessly borrowed from HTML5Boilerplate:
- * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
- */
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
 }
 
 .header {
@@ -491,6 +432,12 @@ a:hover, a:active, a:focus {
 }
 
 @media (min-width: 800px) {
+  .hidden {
+    display: none !important;
+  }
+  .shown {
+    display: block;
+  }
   .nav {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
@@ -504,9 +451,20 @@ a:hover, a:active, a:focus {
             flex-direction: column;
     font-size: 0.9em;
   }
-  .nav--toggle {
-    display: none;
+  .nav__ul--li {
+    padding: 4px 0px;
   }
+  .nav__ul--lib {
+    padding: 4px 5px;
+  }
+}
+
+.photography__catagories {
+  color: #ef6b5d;
+}
+
+.photography__catagories:hover {
+  color: #555553;
 }
 
 .organize {
