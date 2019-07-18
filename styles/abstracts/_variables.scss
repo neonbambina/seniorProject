@@ -23,7 +23,7 @@ $font-size-large: 2em;
 
 /// Logo (logo & nav hover) 
 /// @type Color
-$logo-color: #241f20;
+$logo-color: hsl(60°, 1%, 33%);
 
 
 /// Text (a, p, nav)
@@ -37,7 +37,7 @@ $brand-color: hsl(6°, 82%, 65%);
 
 /// Accent (anywhere that needs a POP - so far buttons) 
 /// @type Color
-$accent-color: rgb(237, 237, 237);
+$accent-color:hsl(28°, 64%, 74%);
 
 /// Base (when the background isn't white - makes text white)
 /// @type Color

@@ -3,5 +3,5 @@
 // Button has been made a mixin - DRY coding #heck yeah
 // -----------------------------------------------------------------------------
 .button {
- @include button($brand-color);
+ @include button($accent-color);
   }

@@ -464,7 +464,7 @@ a:hover, a:active, a:focus {
 }
 
 .header__logo {
-  fill: #241f20;
+  fill: #555553;
   width: 13%;
 }
 
@@ -479,15 +479,15 @@ a:hover, a:active, a:focus {
   padding: 0;
   margin: 0;
   color: #555553;
-  font-size: .9rem;
+  font-size: 0.9em;
 }
 
 .nav__ul--li {
-  padding: 5px 0px;
+  padding: 4px 0px;
 }
 
 .nav:hover {
-  color: #241f20;
+  color: #555553;
 }
 
 @media (min-width: 700px) {
@@ -570,7 +570,7 @@ a:hover, a:active, a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: .9rem;
+  font-size: 0.9em;
   width: 100%;
   margin-bottom: 1.5%;
 }
@@ -590,8 +590,8 @@ a:hover, a:active, a:focus {
 }
 
 .button {
-  border: 2px solid #ef6b5d;
-  color: #ef6b5d;
+  border: 2px solid #e7ba92;
+  color: #e7ba92;
   padding: 14px 28px;
   font-size: 0.9em;
   letter-spacing: 2px;
@@ -599,14 +599,14 @@ a:hover, a:active, a:focus {
 }
 
 .button:hover {
-  background: #ef6b5d;
+  background: #e7ba92;
   color: white;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .button:active {
-  background: #ba2312;
+  background: #cd782d;
   color: white;
 }
 
