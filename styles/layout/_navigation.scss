@@ -42,7 +42,7 @@
 
     .photography__catagories {
       color: $brand-color;
-      &.hover {
+      &:hover {
         color:$text-color;
       }
     }
