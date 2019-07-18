@@ -465,7 +465,7 @@ a:hover, a:active, a:focus {
 
 .header__logo {
   fill: #555553;
-  width: 13%;
+  width: 9%;
 }
 
 .nav {
@@ -774,6 +774,7 @@ a:hover, a:active, a:focus {
       grid-template-columns: 1fr 3fr;
   -ms-grid-rows: .6fr .6fr;
       grid-template-rows: .6fr .6fr;
+  padding-top: 2em;
 }
 
 .about__image {
