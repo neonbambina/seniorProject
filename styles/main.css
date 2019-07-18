@@ -455,7 +455,7 @@ a:hover {
     padding: 4px 0px;
   }
   .nav__ul--lib {
-    padding: 4px 5px;
+    padding: 4px 1em;
   }
 }
 
