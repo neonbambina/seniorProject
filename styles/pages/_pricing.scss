@@ -6,7 +6,8 @@
 }
 
 .sessions__info {
-    font-size: $font-size-large;
+    font-size: $font-size-small;
+    font-family: $body-font;
 }
 
 .sessions__pic1 {
@@ -76,13 +77,6 @@
     grid-template-columns: minmax(45fr, 1fr) .5fr;
     grid-template-rows: .3fr .1fr;
     font-size: $font-size-small;
-}
-
-.sessions__CTA--text{
-    grid-column: 1;
-    grid-row: 1;
-    float: right;
-    color: $brand-color;
 }
 
 .sessions__CTA--button {

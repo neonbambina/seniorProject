@@ -964,7 +964,8 @@ a:hover {
 }
 
 .sessions__info {
-  font-size: 2em;
+  font-size: 0.9em;
+  font-family: "Montserrat", "Helvetica", sans-serif;
 }
 
 .sessions__pic1 {
@@ -1055,15 +1056,6 @@ a:hover {
   -ms-grid-rows: .3fr .1fr;
       grid-template-rows: .3fr .1fr;
   font-size: 0.9em;
-}
-
-.sessions__CTA--text {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  -ms-grid-row: 1;
-  grid-row: 1;
-  float: right;
-  color: #ef6b5d;
 }
 
 .sessions__CTA--button {
