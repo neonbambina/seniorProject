@@ -34,7 +34,8 @@
    
   .content {
     grid-area: content;
-    margin-top: -1%;
+    margin-top: -5%;
+    padding-right: 2em;
   }
 
   //to fix scss error saying these "don't exist"

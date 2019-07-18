@@ -86,14 +86,14 @@
 .sliding {
   width: 100%;
   display: grid;
-  grid-template-columns: .1fr 1fr 1fr;
+  grid-template-columns: 2fr minmax(40ch, 65ch) minmax(40ch, 65ch);
   grid-template-rows: 1fr 1fr .5fr .1fr 1fr;
 }
 
 .sliding__image {
   order: 2;
   grid-column: 3;
-  grid-row: 1;
+  grid-row: span 5;
   width: 100%;
 }
 
@@ -124,6 +124,10 @@
     margin-bottom: 50px;
     padding: 3px 8px;
     text-align: left;
+  }
+  
+  .sliding__text--words-driver{
+    animation: skillz 10s linear infinite;
   }
 
   .sliding__CTA {
