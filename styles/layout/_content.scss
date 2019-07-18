@@ -22,8 +22,6 @@
   width: 100%;
 }
 
-// the white sidebar on the side of the meat of the page
-
 @media (min-width: 800px) {
   .organize {
     grid-template-columns: 1fr 5fr;
@@ -33,12 +31,7 @@
       "nav    content content"
       "footer footer  footer"
    }
-  .side {
-  grid-area: sidebar;
-  }
-  .ad {
-  grid-area: ad;
-  }
+   
   .content {
     grid-area: content;
     margin-top: -10%;
