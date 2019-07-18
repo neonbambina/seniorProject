@@ -1,4 +1,35 @@
 .contact {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr .1fr .1fr;
+}
+  
+.contact__title {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.contact__body--1 {
+  grid-row: 2;
+  grid-column: 1;
+  padding-bottom: -1em;
+}
+
+.contact__body--2 {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.contact__body--3 {
+  grid-column: 1;
+  font-size: $font-size-small;
+}
+
+
+
+@media (min-width: 800px) {
+.contact {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,3 +56,4 @@
     grid-column: 1;
     font-size: $font-size-small;
   }
+}

@@ -28,6 +28,7 @@
   }
      .nav__ul {
        flex-direction: column;
+       font-size: $font-size-small;
      }
     .nav--toggle {
       display:none;

@@ -9,6 +9,7 @@
     "sidebar"
     "ad"
     "footer";
+  height: 100%;
 }
 
 .content {
@@ -19,7 +20,7 @@
 
 // the white sidebar on the side of the meat of the page
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .organize {
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas: 

@@ -13,45 +13,28 @@ $body-font: 'Montserrat', 'Helvetica', sans-serif;
  
 
 /// Font Sizes Guide
-/// @type Color 
 $font-size-small: .9em;
 $font-size-med: 1.5em;
 $font-size-large: 2em;
 
 
 /// COLORS ///
-
 /// Logo (logo & nav hover) 
-/// @type Color
 $logo-color: hsl(60°, 1%, 33%);
 
 
 /// Text (a, p, nav)
-/// @type Color
 $text-color: hsl(60°, 1%, 33%);
 
 /// Main brand (h1)
-/// @type Color
 $brand-color: hsl(6°, 82%, 65%);
 // next season - diggin this color hsl(18.87, 66.67, 63.53);
 
 /// Accent (anywhere that needs a POP - so far buttons) 
-/// @type Color
 $accent-color:hsl(28°, 64%, 74%);
 
 /// Base (when the background isn't white - makes text white)
-/// @type Color
 $base-color: hsl(0°, 0%, 100%);
-
-
-
-
-
-
-/// Container's maximum width
-/// @type Length
-$max-width: 1180px !default;
-
 
 
 

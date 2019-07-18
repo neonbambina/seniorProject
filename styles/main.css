@@ -502,6 +502,7 @@ a:hover, a:active, a:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    font-size: 0.9em;
   }
   .nav--toggle {
     display: none;
@@ -513,6 +514,7 @@ a:hover, a:active, a:focus {
   display: grid;
   grid-gap: 20px;
       grid-template-areas: "header" "nav" "content" "sidebar" "ad" "footer";
+  height: 100%;
 }
 
 .content {
@@ -523,7 +525,7 @@ a:hover, a:active, a:focus {
   margin-right: -20%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .organize {
     -ms-grid-columns: 1fr 4fr 1fr;
         grid-template-columns: 1fr 4fr 1fr;
@@ -572,7 +574,9 @@ a:hover, a:active, a:focus {
           align-items: center;
   font-size: 0.9em;
   width: 100%;
-  margin-bottom: 1.5%;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
 }
 
 .footer__copyright {
@@ -799,8 +803,8 @@ a:hover, a:active, a:focus {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr .1fr .1fr 6fr;
-      grid-template-rows: 1fr .1fr .1fr 6fr;
+  -ms-grid-rows: 1fr .1fr .1fr;
+      grid-template-rows: 1fr .1fr .1fr;
 }
 
 .contact__title {
@@ -829,6 +833,42 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 1;
   grid-column: 1;
   font-size: 0.9em;
+}
+
+@media (min-width: 800px) {
+  .contact {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr .1fr .1fr 6fr;
+        grid-template-rows: 1fr .1fr .1fr 6fr;
+  }
+  .contact__title {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .contact__body--1 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    padding-bottom: -1em;
+  }
+  .contact__body--2 {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .contact__body--3 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    font-size: 0.9em;
+  }
 }
 
 .sessions {
