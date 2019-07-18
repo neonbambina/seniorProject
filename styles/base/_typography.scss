@@ -3,7 +3,6 @@
  */
 
 body {
-  background-color: hsl(0.08, 0.23, 0.95);
   color: $text-color;
   font: normal 100% / 1.4 $body-font;
 }
@@ -11,18 +10,20 @@ body {
 h1 {
   font: normal 100% / 1.4 $heading-font;
   font-size: $font-size-large;
+  color: $brand-color;
 }
 
 p {
   font: $body-font;
   font-size: $font-size-small;
+  color: $text-color;
 }
 
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
 
  @include on-event {
-    color: $text-color;
+    color: $brand-color;
   }
 }

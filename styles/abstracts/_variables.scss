@@ -19,31 +19,28 @@ $font-size-med: 1.5em;
 $font-size-large: 2em;
 
 
+/// COLORS ///
 
-// Logo Color
+/// Logo (logo & nav hover) 
 /// @type Color
 $logo-color: #241f20;
 
 
-/// Copy text color
+/// Text (a, p, nav)
 /// @type Color
-$text-color: rgb(34, 34, 34);
+$text-color: hsl(60°, 1%, 33%);
 
-/// Main brand color
+/// Main brand (h1)
 /// @type Color
 $brand-color: hsl(18.87, 66.67, 63.53);
 
-/// Light grey
+/// Accent (anywhere that needs a POP - so far buttons) 
 /// @type Color
-$light-grey: rgb(237, 237, 237);
+$accent-color: rgb(237, 237, 237);
 
-/// Medium grey
+/// Base (when the background isn't white - makes text white)
 /// @type Color
-$mid-grey: rgb(153, 153, 153);
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(68, 68, 68);
+$base-color: hsl(0°, 0%, 100%);
 
 
 
