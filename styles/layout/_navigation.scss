@@ -39,6 +39,7 @@
     }
     .nav__ul--lib {
       padding: 4px 1em;
+      color:rgba($text-color, .7);
       }
     }
 
@@ -47,7 +48,7 @@
     }
 
     .photography__catagories {
-      color: $brand-color;
+      color:rgba($text-color, .7 );
       &:hover {
         color:$text-color;
       }

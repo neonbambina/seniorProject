@@ -463,6 +463,7 @@ a:hover {
   }
   .nav__ul--lib {
     padding: 4px 1em;
+    color: rgba(85, 85, 83, 0.7);
   }
 }
 
@@ -471,7 +472,7 @@ a:hover {
 }
 
 .photography__catagories {
-  color: #ef6b5d;
+  color: rgba(85, 85, 83, 0.7);
 }
 
 .photography__catagories:hover {
