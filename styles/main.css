@@ -799,8 +799,8 @@ a:hover, a:active, a:focus {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr .1fr 1fr;
-      grid-template-rows: 1fr 1fr .1fr 1fr;
+  -ms-grid-rows: 1fr .1fr .1fr 6fr;
+      grid-template-rows: 1fr .1fr .1fr 6fr;
 }
 
 .contact__title {
@@ -815,6 +815,7 @@ a:hover, a:active, a:focus {
   grid-row: 2;
   -ms-grid-column: 1;
   grid-column: 1;
+  padding-bottom: -1em;
 }
 
 .contact__body--2 {

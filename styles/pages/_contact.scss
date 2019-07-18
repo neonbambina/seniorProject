@@ -2,16 +2,18 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr .1fr 1fr;
+    grid-template-rows: 1fr .1fr .1fr 6fr;
   }
   
   .contact__title {
     grid-row: 1;
     grid-column: 1;
   }
+
   .contact__body--1 {
     grid-row: 2;
     grid-column: 1;
+    padding-bottom: -1em;
   }
 
   .contact__body--2 {
