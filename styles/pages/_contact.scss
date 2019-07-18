@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr .1fr 1fr;
   }
   
   .contact__title {
@@ -20,7 +20,6 @@
   }
 
   .contact__body--3 {
-    grid-row: 4;
     grid-column: 1;
     font-size: $font-size-small;
   }
