@@ -37,6 +37,12 @@
      .nav__ul--li {
       padding: 4px 0px;
     }
+    .nav__ul--lib {
+      color: $text-color;
+      &:hover {
+        color:$brand-color;
+      }
+    }
 
     .photography__catagories {
       color: $brand-color;
