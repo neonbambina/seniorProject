@@ -400,7 +400,6 @@ a:hover {
 
 @media (min-width: 800px) {
   .header {
-    padding: 5px 0px 20px 20px;
     margin-bottom: -20px;
   }
 }
@@ -503,6 +502,7 @@ a:hover {
     -ms-grid-columns: 1fr 5fr;
         grid-template-columns: 1fr 5fr;
         grid-template-areas: "header header  header" "nav    content content" "nav    content content" "footer footer  footer";
+    padding: 1%;
   }
   .content {
     -ms-grid-row: 2;
@@ -771,8 +771,8 @@ a:hover {
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr minmax(40ch, 65ch) minmax(40ch, 65ch);
-        grid-template-columns: 2fr minmax(40ch, 65ch) minmax(40ch, 65ch);
+    -ms-grid-columns: 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr;
     -ms-grid-rows: 1fr 1fr .5fr .1fr 1fr;
         grid-template-rows: 1fr 1fr .5fr .1fr 1fr;
   }
@@ -830,6 +830,22 @@ a:hover {
     text-align: right;
     padding-right: 2%;
     letter-spacing: .75px;
+  }
+  .footer-mobile {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: footer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.9em;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    height: 60px;
   }
 }
 

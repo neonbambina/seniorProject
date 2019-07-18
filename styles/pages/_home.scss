@@ -86,7 +86,7 @@
 .sliding {
   width: 100%;
   display: grid;
-  grid-template-columns: 2fr minmax(40ch, 65ch) minmax(40ch, 65ch);
+  grid-template-columns: 2fr 2fr 2fr;
   grid-template-rows: 1fr 1fr .5fr .1fr 1fr;
 }
 
@@ -134,4 +134,15 @@
   padding-right: 2%;
   letter-spacing: .75px;
 }
+.footer-mobile {
+  grid-area: footer;
+  display:flex;
+  align-items: center;
+  font-size: $font-size-small;
+  width: 100%;
+  position:relative;
+  bottom:0;
+  height: 60px;
+}
+
 }
