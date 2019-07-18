@@ -644,14 +644,15 @@ a:hover {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: .5fr .1fr 1fr;
-      grid-template-rows: .5fr .1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
 }
 
 .sliding__image {
   -ms-grid-column: 1;
   grid-column: 1;
-  grid-row: 1 span 5;
+  -ms-grid-row: 1;
+  grid-row: 1;
   width: 100%;
 }
 
@@ -759,7 +760,7 @@ a:hover {
   letter-spacing: .75px;
 }
 
-.footer {
+.footer-mobile {
   display: none;
 }
 
