@@ -434,8 +434,9 @@ a:hover {
   padding: 4px 0px;
 }
 
-.nav:hover {
-  color: #555553;
+.nav__ul--lib {
+  padding: 4px 1em;
+  color: rgba(85, 85, 83, 0.7);
 }
 
 @media (min-width: 800px) {

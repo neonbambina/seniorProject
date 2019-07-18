@@ -15,9 +15,11 @@
   padding: 4px 0px;
 }
 
-.nav:hover {
-    color: $logo-color;
+.nav__ul--lib {
+  padding: 4px 1em;
+  color:rgba($text-color, .7);
 }
+
 
 
 @media (min-width: 800px) {
