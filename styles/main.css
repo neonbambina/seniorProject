@@ -644,8 +644,8 @@ a:hover {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr .1fr .1fr;
+      grid-template-rows: 1fr .1fr .1fr;
 }
 
 .sliding__image {
@@ -749,8 +749,8 @@ a:hover {
   width: 100%;
   -ms-grid-column: 1;
   grid-column: 1;
-  -ms-grid-row: 4;
-  grid-row: 4;
+  -ms-grid-row: 3;
+  grid-row: 3;
   padding-right: 2%;
   letter-spacing: .75px;
 }

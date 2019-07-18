@@ -5,7 +5,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr .1fr .1fr;
 }
 
 .sliding__image {
@@ -59,7 +59,7 @@
   .sliding__CTA {
   width: 100%;
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 3;
   padding-right: 2%;
   letter-spacing: .75px;
 }
