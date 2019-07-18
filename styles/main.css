@@ -490,7 +490,7 @@ a:hover, a:active, a:focus {
   color: #555553;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .nav {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
