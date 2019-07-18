@@ -471,10 +471,6 @@ a:hover {
   cursor: pointer;
 }
 
-.photography__catagories {
-  color: rgba(85, 85, 83, 0.7);
-}
-
 .photography__catagories:hover {
   color: #555553;
 }
