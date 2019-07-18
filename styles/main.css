@@ -459,6 +459,10 @@ a:hover {
   }
 }
 
+.photo-dropper {
+  cursor: pointer;
+}
+
 .photography__catagories {
   color: #ef6b5d;
 }
