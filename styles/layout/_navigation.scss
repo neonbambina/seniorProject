@@ -30,16 +30,10 @@
     margin-left: 25px;
 
   }
-  .nav__photo {
-    cursor: pointer;
-  }
-
      .nav__ul {
        flex-direction: column;
        font-size: $font-size-small;
+       list-style-type: none;
      }
-    .nav--toggle {
-      display:none;
-    }
     
 }
