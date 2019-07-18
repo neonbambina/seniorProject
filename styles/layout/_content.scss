@@ -1,5 +1,6 @@
 // the meat of the pages organization
 .organize {
+  width: 100%;
   display: grid;
   grid-gap: 20px;
   grid-template-areas: 
@@ -10,12 +11,15 @@
     "ad"
     "footer";
   height: 100%;
+  margin-right: 0%;
+  padding: 5%;
 }
 
 .content {
   grid-area: content;
   margin-top: -1.5em;
   margin-right: -20%;
+  width: 100%;
 }
 
 // the white sidebar on the side of the meat of the page

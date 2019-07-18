@@ -472,11 +472,14 @@ a:hover {
 }
 
 .organize {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
       grid-template-areas: "header" "nav" "content" "sidebar" "ad" "footer";
   height: 100%;
+  margin-right: 0%;
+  padding: 5%;
 }
 
 .content {
@@ -485,6 +488,7 @@ a:hover {
   grid-area: content;
   margin-top: -1.5em;
   margin-right: -20%;
+  width: 100%;
 }
 
 @media (min-width: 800px) {
@@ -536,9 +540,9 @@ a:hover {
           align-items: center;
   font-size: 0.9em;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
-  height: 100px;
+  height: 1em;
 }
 
 .footer__copyright {
@@ -553,6 +557,41 @@ a:hover {
 
 .footer__line-divider {
   color: #555553;
+  font-size: .5em;
+}
+
+.footer__copyright--next {
+  font-size: .5em;
+}
+
+@media (min-width: 800px) {
+  .footer {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: footer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.9em;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    height: .5em;
+  }
+  .footer__copyright {
+    text-align: center;
+    margin: auto;
+    letter-spacing: .75px;
+  }
+  .footer__copyright--next {
+    margin: 7px;
+  }
+  .footer__line-divider {
+    color: #555553;
+  }
 }
 
 .button {
@@ -736,8 +775,8 @@ a:hover {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 3fr;
-      grid-template-columns: 1fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -ms-grid-rows: .6fr .6fr;
       grid-template-rows: .6fr .6fr;
   padding-top: 2em;
@@ -753,6 +792,7 @@ a:hover {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  width: 100%;
 }
 
 .about__CTA {

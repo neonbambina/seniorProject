@@ -7,9 +7,9 @@
   align-items: center;
   font-size: $font-size-small;
   width: 100%;
-  position:absolute;
+  position:relative;
   bottom:0;
-  height:100px;
+  height: 1em;
 }
 
 .footer__copyright {
@@ -24,4 +24,37 @@
 
 .footer__line-divider {
   color: $text-color;
+  font-size: .5em;
+}
+.footer__copyright--next {
+  font-size: .5em;
+}
+
+
+@media (min-width: 800px) {
+
+.footer {
+  grid-area: footer;
+  display:flex;
+  align-items: center;
+  font-size: $font-size-small;
+  width: 100%;
+  position:relative;
+  bottom:0;
+  height:.5em;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin: auto;
+  letter-spacing: .75px;
+}
+
+.footer__copyright--next {
+  margin: 7px;
+}
+
+.footer__line-divider {
+  color: $text-color;
+}
 }

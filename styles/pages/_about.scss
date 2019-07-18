@@ -1,7 +1,7 @@
 .about {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: .6fr .6fr;
     padding-top: 2em;
   }
@@ -14,6 +14,7 @@
     padding-left: 2em;
     margin-top: -1.9em;
     order: 2;
+    width: 100%;
   }
 
   .about__CTA {
