@@ -35,5 +35,8 @@
        font-size: $font-size-small;
        list-style-type: none;
      }
-    
+     .nav__ul--li {
+      padding: 4px 0px;
+      list-style-type: none;
+    }
 }
