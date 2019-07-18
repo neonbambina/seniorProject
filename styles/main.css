@@ -776,10 +776,10 @@ a:hover {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: .6fr .6fr;
-      grid-template-rows: .6fr .6fr;
+  -ms-grid-columns: .4fr 1fr;
+      grid-template-columns: .4fr 1fr;
+  -ms-grid-rows: .6fr .58fr;
+      grid-template-rows: .6fr .58fr;
   padding-top: 2em;
 }
 
