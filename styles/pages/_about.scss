@@ -1,4 +1,28 @@
 .about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .6fr .58fr;
+  padding-top: 2em;
+}
+
+.about__image {
+  width: 100%;
+}
+
+.about__text {
+  order: 2;
+  width: 100%;
+}
+
+.about__CTA {
+  padding-top: 5%;
+}
+
+
+@media (min-width: 800px) {
+
+.about {
     width: 100%;
     display: grid;
     grid-template-columns: .4fr 1fr;
@@ -20,3 +44,4 @@
   .about__CTA {
     padding-top: 5%;
   }
+}

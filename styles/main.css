@@ -543,7 +543,7 @@ a:hover {
   width: 100%;
   position: relative;
   bottom: 0;
-  height: 1em;
+  height: 5em;
 }
 
 .footer__copyright {
@@ -776,8 +776,8 @@ a:hover {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: .4fr 1fr;
-      grid-template-columns: .4fr 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
   -ms-grid-rows: .6fr .58fr;
       grid-template-rows: .6fr .58fr;
   padding-top: 2em;
@@ -788,8 +788,6 @@ a:hover {
 }
 
 .about__text {
-  padding-left: 2em;
-  margin-top: -1.9em;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
@@ -798,6 +796,33 @@ a:hover {
 
 .about__CTA {
   padding-top: 5%;
+}
+
+@media (min-width: 800px) {
+  .about {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: .4fr 1fr;
+        grid-template-columns: .4fr 1fr;
+    -ms-grid-rows: .6fr .58fr;
+        grid-template-rows: .6fr .58fr;
+    padding-top: 2em;
+  }
+  .about__image {
+    width: 100%;
+  }
+  .about__text {
+    padding-left: 2em;
+    margin-top: -1.9em;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+  }
+  .about__CTA {
+    padding-top: 5%;
+  }
 }
 
 .contact {
