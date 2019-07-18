@@ -399,7 +399,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .header {
-    padding: 25px 0px -20px 20px;
+    padding: 5px 0px 20px 20px;
     margin-bottom: -20px;
   }
 }
@@ -493,24 +493,25 @@ a:hover {
 
 @media (min-width: 800px) {
   .organize {
-    -ms-grid-columns: 1fr 4fr 1fr;
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-areas: "header header  header" "nav    content sidebar" "nav    content ad" "footer footer  footer";
+    -ms-grid-columns: 1fr 5fr;
+        grid-template-columns: 1fr 5fr;
+        grid-template-areas: "header header  header" "nav    content content" "nav    content content" "footer footer  footer";
   }
   .side {
-    -ms-grid-row: 2;
-    -ms-grid-column: 3;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: sidebar;
   }
   .ad {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: ad;
   }
   .content {
     -ms-grid-row: 2;
     -ms-grid-row-span: 2;
     -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
     grid-area: content;
     margin-top: -10%;
   }

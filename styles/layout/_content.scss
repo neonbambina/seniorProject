@@ -26,11 +26,11 @@
 
 @media (min-width: 800px) {
   .organize {
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-areas: 
       "header header  header"
-      "nav    content sidebar"
-      "nav    content ad"
+      "nav    content content"
+      "nav    content content"
       "footer footer  footer"
    }
   .side {
