@@ -1,3 +1,5 @@
+// toggles the mini menu inside of the photography heading
+
 var drop = document.getElementById('photography');
 var catagories = document.getElementById('photography__catagories');
 
